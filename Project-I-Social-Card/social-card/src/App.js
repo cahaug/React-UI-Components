@@ -1,11 +1,8 @@
 import React from 'react';
 import './App.css';
-import CardBanner from './components/CardComponents/CardBanner';
-import CardContainer from './components/CardComponents/CardContainer';
-import CardContent from './components/CardComponents/CardContent';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
-
-import Footer from './components/FooterComponents/Footer';
+import CardContainer from './components/CardComponents/CardContainer';
+// import Footer from './components/FooterComponents/Footer';
 
 const App = () => {
   return (
@@ -13,13 +10,15 @@ const App = () => {
       
         <HeaderContainer />
         <CardContainer />
-  
+        {/* <Footer /> */} 
+
     </div>
   );
 };
 
 export default App;
-  {/* <h3>Welcome to React Social Card!</h3>
+  
+{/* <h3>Welcome to React Social Card!</h3>
   <p>
     Begin by exploring the `components` directory. You'll notice we have a
     few files that we've already included in there to get you started right
