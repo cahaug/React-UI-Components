@@ -18,6 +18,12 @@ const App = () => {
 
 export default App;
   
+window.addEventListener('DOMContentLoaded', (event) => {
+  console.log('DOM fully loaded and parsed');
+});
+
+
+
 {/* <h3>Welcome to React Social Card!</h3>
   <p>
     Begin by exploring the `components` directory. You'll notice we have a
