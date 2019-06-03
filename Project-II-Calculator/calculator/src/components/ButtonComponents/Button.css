@@ -1,0 +1,14 @@
+button {
+    height: 96.5px;
+    background: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border: solid 1px black;
+  }
+  
+  .action-btn {
+    color: white;
+    background: #A0041E;
+    width: 100%;
+  }
+  
