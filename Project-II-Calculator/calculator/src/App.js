@@ -76,7 +76,7 @@ const numBtns = [
     }
   },
   {
-    text: "Clear",
+    text: "clear",
     id:"clr",
     buttonStyle: {
       width: "100%",
