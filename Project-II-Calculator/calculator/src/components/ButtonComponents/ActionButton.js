@@ -1,8 +1,7 @@
-
 import React from 'react';
 import './Button.css';
 
-function ActionButton(props) {
+const ActionButton = props => {
   return <button className="action-btn">{`${props.actBtn.text}`}</button>
 }
 
