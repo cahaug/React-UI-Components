@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+.CardContain {
+    width:450px;
+    margin-left: 150px;
+    border: 1px solid lightgray;
+}
+
+.CardBanner {
+    width: 450px;
+}
+
+.CardConten {
+padding:5px 10px;
+}
